@@ -1,4 +1,4 @@
-package com.easynetworks.lotteFactoring.Config;
+package com.example.demo.Config;
 
 import com.easynetworks.lotteFactoring.Exception.ApiExceptionEntity;
 import com.easynetworks.lotteFactoring.Exception.ApiResult;

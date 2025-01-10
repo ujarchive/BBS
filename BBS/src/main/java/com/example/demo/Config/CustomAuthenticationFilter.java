@@ -1,4 +1,4 @@
-package com.easynetworks.lotteFactoring.Config;
+package com.example.demo.Config;
 
 import com.easynetworks.lotteFactoring.DTO.UserDto;
 import com.fasterxml.jackson.databind.ObjectMapper;

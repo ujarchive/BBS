@@ -1,7 +1,6 @@
-package com.easynetworks.lotteFactoring.Domain;
+package com.example.demo.Domain;
 
-
-import com.easynetworks.lotteFactoring.Common.BaseTimeEntity;
+import com.example.demo.Common.BaseTimeEntity;
 import com.fasterxml.jackson.annotation.*;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
@@ -72,7 +71,8 @@ public class User extends BaseTimeEntity implements UserDetails {
     }
 
     @Enumerated(EnumType.STRING)
-    @NotNull(message="사용자 권한은 필수값입니다.")
+    @NotNull
+            (message="사용자 권한은 필수값입니다.")
     private UserRole userRole = UserRole.USER;
 
     public void setAccessIp(String accessIp) {

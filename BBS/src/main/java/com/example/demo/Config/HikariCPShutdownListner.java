@@ -1,4 +1,4 @@
-package com.easynetworks.lotteFactoring.Config;
+package com.example.demo.Config;
 
 import com.zaxxer.hikari.HikariDataSource;
 import lombok.extern.slf4j.Slf4j;

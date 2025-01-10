@@ -1,4 +1,4 @@
-package com.easynetworks.lotteFactoring.Exception;
+package com.example.demo.Exception;
 
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
@@ -13,7 +13,6 @@ import org.springframework.web.client.HttpServerErrorException;
 
 import java.nio.file.AccessDeniedException;
 import java.sql.SQLException;
-import java.util.TooManyListenersException;
 
 @Slf4j
 @RestControllerAdvice

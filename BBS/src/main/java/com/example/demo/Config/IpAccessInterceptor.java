@@ -1,13 +1,9 @@
-package com.easynetworks.lotteFactoring.Config;
+package com.example.demo.Config;
 
-import com.easynetworks.lotteFactoring.Repository.UserRepository;
-import com.easynetworks.lotteFactoring.Service.UserService;
-import com.easynetworks.lotteFactoring.Utils.IpUtils;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 

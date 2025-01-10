@@ -1,10 +1,10 @@
-package com.easynetworks.lotteFactoring.Config;
+package com.example.demo.Config;
 
-import com.easynetworks.lotteFactoring.DTO.UserDto;
-import com.easynetworks.lotteFactoring.Domain.ActivityType;
-import com.easynetworks.lotteFactoring.Domain.UserHistory;
-import com.easynetworks.lotteFactoring.Repository.UserHistoryRepository;
-import com.easynetworks.lotteFactoring.Repository.UserRepository;
+import com.example.demo.DTO.UserDto;
+import com.example.demo.Domain.ActivityType;
+import com.example.demo.Domain.UserHistory;
+import com.example.demo.Repository.UserHistoryRepository;
+import com.example.demo.Repository.UserRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

@@ -1,4 +1,4 @@
-package com.easynetworks.lotteFactoring.Utils;
+package com.example.demo.Utils;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;

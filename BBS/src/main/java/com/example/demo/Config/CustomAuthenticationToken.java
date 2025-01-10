@@ -1,4 +1,4 @@
-package com.easynetworks.lotteFactoring.Config;
+package com.example.demo.Config;
 
 import org.springframework.security.authentication.AbstractAuthenticationToken;
 import org.springframework.security.core.GrantedAuthority;

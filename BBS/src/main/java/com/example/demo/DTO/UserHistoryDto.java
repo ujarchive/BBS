@@ -1,6 +1,6 @@
-package com.easynetworks.lotteFactoring.DTO;
+package com.example.demo.DTO;
 
-import com.easynetworks.lotteFactoring.Common.ExcelColumn;
+import com.example.demo.Common.ExcelColumn;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.Getter;

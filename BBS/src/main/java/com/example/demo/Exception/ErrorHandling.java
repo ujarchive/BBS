@@ -1,4 +1,4 @@
-package com.easynetworks.lotteFactoring.Exception;
+package com.example.demo.Exception;
 
 import lombok.Getter;
 import lombok.ToString;

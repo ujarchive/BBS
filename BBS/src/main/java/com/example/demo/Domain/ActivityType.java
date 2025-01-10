@@ -1,4 +1,4 @@
-package com.easynetworks.lotteFactoring.Domain;
+package com.example.demo.Domain;
 
 public enum ActivityType {
 

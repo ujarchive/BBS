@@ -1,4 +1,4 @@
-package com.easynetworks.lotteFactoring.Config;
+package com.example.demo.Config;
 
 import jakarta.servlet.ReadListener;
 import jakarta.servlet.ServletInputStream;

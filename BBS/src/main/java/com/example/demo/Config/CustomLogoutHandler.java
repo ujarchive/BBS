@@ -1,8 +1,7 @@
-package com.easynetworks.lotteFactoring.Config;
+package com.example.demo.Config;
 
 import com.easynetworks.lotteFactoring.Domain.User;
 import com.easynetworks.lotteFactoring.Repository.UserRepository;
-import com.easynetworks.lotteFactoring.Service.CustomUserDetailsService;
 import com.easynetworks.lotteFactoring.Service.UserHistoryService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -29,7 +28,7 @@ public class CustomLogoutHandler implements LogoutHandler {
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
         Object principal = auth.getPrincipal();
 
-        if (principal instanceof org.springframework.security.core.userdetails.UserDetails) {
+        if (principal instanceof UserDetails) {
             log.debug("Principal type: {}", principal.getClass().getName());
             Optional<User> user = userRepository.findByUsername(((UserDetails) principal).getUsername());
             if(user.isPresent()) userHistoryService.logout(request, response, user.get()); // 로그아웃 기록 저장

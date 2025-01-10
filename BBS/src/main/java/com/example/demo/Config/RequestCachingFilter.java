@@ -1,4 +1,4 @@
-package com.easynetworks.lotteFactoring.Config;
+package com.example.demo.Config;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

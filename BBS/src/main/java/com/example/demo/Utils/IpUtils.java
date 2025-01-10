@@ -1,4 +1,4 @@
-package com.easynetworks.lotteFactoring.Utils;
+package com.example.demo.Utils;
 
 import jakarta.servlet.http.HttpServletRequest;
 

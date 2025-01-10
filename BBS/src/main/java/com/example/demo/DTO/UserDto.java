@@ -1,10 +1,12 @@
-package com.easynetworks.lotteFactoring.DTO;
+package com.example.demo.DTO;
 
-import com.easynetworks.lotteFactoring.Domain.User;
-import com.easynetworks.lotteFactoring.Domain.UserRole;
-import lombok.*;
+import com.example.demo.Domain.User;
+import com.example.demo.Domain.UserRole;
+import lombok.Builder;
+import lombok.Data;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
 
-import java.time.LocalDateTime;
 import java.util.Optional;
 
 @Getter

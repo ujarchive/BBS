@@ -1,9 +1,6 @@
-package com.easynetworks.lotteFactoring.Utils;
+package com.example.demo.Utils;
 
 import org.springframework.util.StringUtils;
-
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class MaskingUtils {
     public enum MaskingType {

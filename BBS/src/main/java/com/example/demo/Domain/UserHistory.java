@@ -1,16 +1,13 @@
-package com.easynetworks.lotteFactoring.Domain;
+package com.example.demo.Domain;
 
-import com.easynetworks.lotteFactoring.Common.BaseTimeEntity;
-import com.easynetworks.lotteFactoring.Common.ExcelColumn;
+import com.example.demo.Common.BaseTimeEntity;
+import com.example.demo.Common.ExcelColumn;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import org.springframework.data.annotation.CreatedDate;
-
-import java.time.LocalDateTime;
 
 @Entity
 @Getter
